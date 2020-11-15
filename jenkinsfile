@@ -1,6 +1,6 @@
 node{
   stage('SCM Checkout'){
-    git'https://gihub.com/immuali786/my-app'
+    git 'https://gihub.com/immuali786/my-app'
   }
   stage('compile-pacakage'){
     sh 'mvn pacakge'
